@@ -5,6 +5,7 @@
 3. [Features](#features)
 4. [Usage](#usage)
 5. [Status](#status)
+6. [Authors](#authors)
 
 ## General
 A simple one-time pad cipher written in ARMv7 assembly. The program runs through command line, takes a text file input, and offers both an encrypt and decrypt mode. Alongside this is commented out C code that represents the assembly code written making it easier to understand.
@@ -29,3 +30,6 @@ Finally the cipher/plain text is outputted through `stdout`.
    
 ## Status
 Version 1.4
+
+## Authors
+Authored by [Jamie Grant](https://github.com/James-C-G) and [Callum Anderson](https://github.com/Callum-A).

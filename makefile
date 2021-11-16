@@ -1,10 +1,10 @@
-all: cw1
+all: cipher
 
-cw1: cw1.o
-	gcc -o cw1 cw1.o
+cipher: cipher.o
+	gcc -o cipher cipher.o
 
-cw1.o: cw1.s
-	as -o cw1.o cw1.s
+cipher.o: cipher.s
+	as -o cipher.o cipher.s
 
 clean:
-	rm cw1 cw1.o 
+	rm cipher cipher.o 
